@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Prompt:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Prompt", sans-serif;
+  width: 100%;
+  height: 100dvh;
+  background: #414141;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  width: 400px;
+  height: 500px;
+  background-color: rgba(204, 228, 227, 0.699);
+  border-radius: 20px;
+}
+#main img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+  padding: 15px;
+}
+#main img:hover {
+  object-fit: contain;
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.detail button {
+  background-color: rgba(0, 255, 64, 0.623);
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.detail h2 {
+  color: red;
+}
