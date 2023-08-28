@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Prompt:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background-image: linear-gradient(
+    to left,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  border-radius: 20px;
+  width: 1000px;
+  margin: 2rem auto;
+  height: 80vh;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  font-family: "Prompt", sans-serif;
+}
+.container {
+  margin-top: 1rem;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+input {
+  background: none;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.548);
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  outline: none;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.568);
+}
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.weather-box {
+  margin-top: 1rem;
+  padding: 0 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.897);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.icon {
+  margin-top: 2rem;
+}
+.city {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.897);
+}
+.weather {
+  font-size: 20px;
+  font-weight: 600;
+}
+.temperature {
+  font-size: 20px;
+  font-weight: 900;
+}
+.description {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.897);
+}

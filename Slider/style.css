@@ -50,6 +50,7 @@
   flex-direction: column;
   gap: 20px;
   list-style: none;
+  overflow: hidden;
 }
 .nav ul li a {
   font-size: 30px;
